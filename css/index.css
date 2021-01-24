@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+/* home page */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -131,6 +133,10 @@ footer {
     background: black;
 }
 
+.content-img{
+      margin-bottom: 20px;
+}
+
 footer nav {
     width: 60%;
     display: flex;
@@ -143,4 +149,109 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.nav-content{
+      width: 100%;
+}
+
+.nav-content nav{
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 2%;
+      font-size: 14px;
+}
+
+.nav-content nav a{
+      text-decoration: none;
+      color: black;
+      padding-left: 60px;
+}
+
+.boxes > .box:nth-child(1){
+      background: teal;
+}
+
+.boxes > .box:nth-child(2){
+      background: gold;
+}
+
+.boxes > .box:nth-child(3){
+      background: cadetblue;
+}
+
+.boxes > .box:nth-child(4){
+      background: coral;
+}
+
+.boxes > .box:nth-child(5){
+      background: crimson;
+}
+
+.boxes > .box:nth-child(6){
+      background: forestgreen;
+}
+
+.boxes > .box:nth-child(7){
+      background: darkorchid;
+}
+
+.boxes > .box:nth-child(8){
+      background: hotpink;
+}
+
+.boxes > .box:nth-child(9){
+      background: indigo;
+}
+
+.boxes > .box:nth-child(10){
+      background: dodgerblue;
+}
+
+/* about page */
+
+.text-container-about{
+      padding: 0 1%;
+      padding-bottom: 20px;
+}
+
+.about-content{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+      border-bottom: 1px dashed black;
+}
+
+.top-content-about{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+}
+
+.top-content-about .text-container {
+      width: 48%;
+      padding: 0 1%;
+      padding-bottom: 20px;
+      border-bottom: 1px dashed black;  
+}
+
+.top-content-about .text-container h2{
+      margin-top: 20px;
+}
+
+.button {
+      border: 2px solid black;
+      border-radius: 10px;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 20px;
+      cursor: pointer;
+      color: black;
 }
